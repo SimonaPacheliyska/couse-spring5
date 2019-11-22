@@ -10,11 +10,11 @@ public interface PostService {
 
 	Mono<Post> findById(Long id);
 
-	Mono<Post> create(Post article);
+	Mono<Post> create(Post post);
 
-	Mono<Post> update(Post article);
+	Mono<Post> update(Post post);
 
-	Mono<Post> delete(Long articleId);
+	Mono<Post> delete(Long postId);
 
 	Mono<Long> getCount();
 }

@@ -28,8 +28,5 @@ public class User {
 	public String password;
 	public ROLES role;
 	public URL photo;
-	
-	
-	
 
 }
